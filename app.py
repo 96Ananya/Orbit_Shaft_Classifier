@@ -22,7 +22,9 @@ CLASS_DESCRIPTIONS = {
     "class6": {"name": "Banana/Truncation", "fault": "Shaft Rubs / Misalignment", "description": "The orbit exhibits a flatness or truncation on one side (a 'banana' shape), a key sign of intermittent shaft rubbing or severe misalignment."},
     "class7": {"name": "Inner Figure-8", "fault": "Oil-Film Whirl", "description": "The orbit has an internal figure-8 or loop pattern, typically related to oil instability in the bearing."},
     "class8": {"name": "Outer Figure-8", "fault": "Shaft Misalignment", "description": "Classic figure-8 shape, usually indicating severe shaft misalignment."},
-    "class9": {"name": "Petal Shape", "fault": "Subsynchronous Whirl", "description": "Flower-like shape with three or more distinct lobes or 'petals', often seen in complex fractional whirl."}
+    "class9A": {"name": "Petal Shape", "fault": "Subsynchronous Whirl", "description": "Flower-like shape with three or more distinct lobes or 'petals', often seen in complex fractional whirl."},
+    "class9B": {"name": "5 Petal Orbit", "fault": "Reverse Precession Harmonic", "description": "Five outward petals. Reverse precession dominated by high harmonic."},
+    "class9C": {"name": "Inward Double Loop", "fault": "Forward Precession Harmonic", "description": "Two inward loops. Forward precession harmonic vibration."}
 }
 
 @st.cache_resource
