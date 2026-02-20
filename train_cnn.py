@@ -13,7 +13,7 @@ MODEL_FILE = "vibration_model.h5"
 
 # --- DATA LOADING ---
 def load_and_combine_data():
-    """Loads images from both 'clean' and 'realistic' variants and combines them."""
+    """Loads images from 'clean' variants and combines them."""
     
     print(f"Loading data from {DATASET_PATH}...")
     
